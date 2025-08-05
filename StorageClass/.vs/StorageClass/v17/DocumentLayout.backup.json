@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B62D3B6-7AFF-40CB-ACD8-7EA0F720889C}|StorageClass\\StorageClass.vcxproj|C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\StorageClass\\support.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0B62D3B6-7AFF-40CB-ACD8-7EA0F720889C}|StorageClass\\StorageClass.vcxproj|solutionrelative:StorageClass\\support.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B62D3B6-7AFF-40CB-ACD8-7EA0F720889C}|StorageClass\\StorageClass.vcxproj|C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\StorageClass\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0B62D3B6-7AFF-40CB-ACD8-7EA0F720889C}|StorageClass\\StorageClass.vcxproj|solutionrelative:StorageClass\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "support.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\StorageClass\\support.cpp",
+              "RelativeDocumentMoniker": "StorageClass\\support.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\StorageClass\\support.cpp",
+              "RelativeToolTip": "StorageClass\\support.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T14:13:30.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\StorageClass\\main.cpp",
+              "RelativeDocumentMoniker": "StorageClass\\main.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\StorageClass\\StorageClass\\main.cpp",
+              "RelativeToolTip": "StorageClass\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T14:12:52.258Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

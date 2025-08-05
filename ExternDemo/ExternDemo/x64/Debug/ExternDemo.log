@@ -1,0 +1,5 @@
+﻿  ExternDemo.cpp
+C:\Dev\VisualStudio\C++\ExternDemo\ExternDemo\ExternDemo.cpp(7,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+ExternDemo.obj : error LNK2001: unresolved external symbol "char * line" (?line@@3PADA)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Dev\VisualStudio\C++\ExternDemo\x64\Debug\ExternDemo.exe : fatal error LNK1120: 2 unresolved externals

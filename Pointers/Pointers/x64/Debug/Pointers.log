@@ -1,0 +1,17 @@
+﻿  Pointers.cpp
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(54,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(54,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(55,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(55,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(59,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(59,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'char *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(60,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(60,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(64,9): error C2374: 'a': redefinition; multiple initialization
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(49,9):
+      see declaration of 'a'
+  
+C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(65,11): error C2371: 'b': redefinition; different basic types
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(50,10):
+      see declaration of 'b'
+  

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\InputOptputStream\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7547A63D-BCBD-4E86-88C9-148116BCD319}|InputOptputStream\\InputOptputStream.vcxproj|C:\\Dev\\VisualStudio\\C\u002B\u002B\\InputOptputStream\\InputOptputStream\\InputOptputStream.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7547A63D-BCBD-4E86-88C9-148116BCD319}|InputOptputStream\\InputOptputStream.vcxproj|solutionrelative:InputOptputStream\\InputOptputStream.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputOptputStream.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\InputOptputStream\\InputOptputStream\\InputOptputStream.cpp",
+              "RelativeDocumentMoniker": "InputOptputStream\\InputOptputStream.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\InputOptputStream\\InputOptputStream\\InputOptputStream.cpp",
+              "RelativeToolTip": "InputOptputStream\\InputOptputStream.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-12T12:18:17.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
