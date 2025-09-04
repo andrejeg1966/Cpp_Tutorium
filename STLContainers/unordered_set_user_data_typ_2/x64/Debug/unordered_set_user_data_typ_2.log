@@ -1,0 +1,86 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,60): error C2676: binary '==': 'const _Ty' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,60): error C2676:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,60): error C2676:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,60): error C2676:             _Ty=Person
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,60): error C2676:         ]
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(483,27):
+      could be 'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,54):
+          'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'const _Ty'
+          with
+          [
+              _Ty=Person
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(531,60):
+      the template instantiation context (the oldest one first) is
+          C:\Dev\VisualStudio\C++\STLContainers\unordered_set_user_data_typ_2\main.cpp(39,43):
+          see reference to class template instantiation 'std::unordered_set<Person,MyHashFunction,std::equal_to<Person>,std::allocator<Person>>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\unordered_set(59,30):
+          see reference to class template instantiation 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Alloc=std::allocator<Person>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash(1675,10):
+          while compiling class template member function 'void std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Forced_rehash(unsigned __int64)'
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Alloc=std::allocator<Person>
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash(1628,23):
+              see the first reference to 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Forced_rehash' in 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Rehash_for_1'
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Alloc=std::allocator<Person>
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash(612,30):
+              see the first reference to 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Rehash_for_1' in 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace'
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Alloc=std::allocator<Person>
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash(931,9):
+              see the first reference to 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace' in 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert'
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Alloc=std::allocator<Person>
+          ]
+              C:\Dev\VisualStudio\C++\STLContainers\unordered_set_user_data_typ_2\main.cpp(44,14):
+              see the first reference to 'std::_Hash<std::_Uset_traits<_Kty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert' in 'main'
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Alloc=std::allocator<Person>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash(1724,18):
+          while compiling class template member function 'bool std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::operator ()<_Kty,_Kty>(const _Keyty1 &,const _Keyty2 &) noexcept(<expr>) const'
+          with
+          [
+              _Kty=Person,
+              _Hasher=MyHashFunction,
+              _Keyeq=std::equal_to<Person>,
+              _Keyty1=Person,
+              _Keyty2=Person
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xhash(150,18):
+          see reference to variable template 'const bool _Nothrow_compare<std::equal_to<Person>,Person,Person>' being compiled
+  
