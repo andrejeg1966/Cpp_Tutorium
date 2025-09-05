@@ -1,17 +1,42 @@
-﻿  Pointers.cpp
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(54,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(54,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'int *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(55,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(55,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(59,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(59,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'char *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(60,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'void *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(60,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'void *'
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(64,9): error C2374: 'a': redefinition; multiple initialization
-      C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(49,9):
-      see declaration of 'a'
+﻿  main.cpp
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(19,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(19,12):
+      consider using '%zd' in the format string
   
-C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(65,11): error C2371: 'b': redefinition; different basic types
-      C:\Dev\VisualStudio\C++\Pointers\Pointers\Pointers.cpp(50,10):
-      see declaration of 'b'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(20,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(20,12):
+      consider using '%zd' in the format string
   
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(21,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(21,12):
+      consider using '%zd' in the format string
+  
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(22,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(22,12):
+      consider using '%zd' in the format string
+  
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(23,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(23,12):
+      consider using '%zd' in the format string
+  
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(24,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(24,12):
+      consider using '%zd' in the format string
+  
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(25,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(25,12):
+      consider using '%zd' in the format string
+  
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(59,12): warning C4477: 'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(59,12): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(89,12): warning C4477: 'printf' : format string '%16x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(89,12): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(120,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(120,12): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(121,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(121,12): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(129,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(129,12): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'char *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(130,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'void *'
+C:\Dev\VisualStudio\C++\Pointers\Pointers\main.cpp(130,12): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'void *'
+  Pointers.vcxproj -> C:\Dev\VisualStudio\C++\Pointers\x64\Debug\Pointers.exe

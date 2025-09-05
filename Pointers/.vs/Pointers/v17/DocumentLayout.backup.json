@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F243B7F1-F563-423C-89CA-E20486970152}|Pointers\\Pointers.vcxproj|C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\Pointers\\Pointers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F243B7F1-F563-423C-89CA-E20486970152}|Pointers\\Pointers.vcxproj|solutionrelative:Pointers\\Pointers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6CBE01A0-E0ED-4071-89F7-C0ED3A934578}|WeakPointer\\WeakPointer.vcxproj|C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\WeakPointer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CBE01A0-E0ED-4071-89F7-C0ED3A934578}|WeakPointer\\WeakPointer.vcxproj|solutionrelative:WeakPointer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pointers.cpp",
-              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\Pointers\\Pointers.cpp",
-              "RelativeDocumentMoniker": "Pointers\\Pointers.cpp",
-              "ToolTip": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\Pointers\\Pointers.cpp",
-              "RelativeToolTip": "Pointers\\Pointers.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\WeakPointer\\main.cpp",
+              "RelativeDocumentMoniker": "WeakPointer\\main.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\u002B\u002B\\Pointers\\WeakPointer\\main.cpp",
+              "RelativeToolTip": "WeakPointer\\main.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAvwC0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-14T07:43:05.548Z",
+              "WhenOpened": "2025-09-05T15:04:44.631Z",
               "EditorCaption": ""
             }
           ]
